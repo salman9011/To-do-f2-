@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="black-part">
+      <div class="logo-part">
+        <img src="./assets/rocket.svg" alt="#" />
+        <div class="text-header">
+          <span class="split-left">to</span>
+          <span class="split-right">do</span>
+        </div>
+      </div>
+    </div>
+    <div class="overlap-container">
+      <form class="form">
+        <input
+          class="form-input"
+          type="text"
+          placeholder="Enter Your To do List Task"
+          required
+        />
+      </form>
+      <div>
+        <button class="btn"  type="button" onclick="addTask()">
+          Add <i style="font-size: 15px" class="fa">&#xf055;</i>
+        </button>
+      </div>
+    </div>
+    <div class="grey-part">
+      <section class="content">
+        <div class="left-status">
+          <p>To Do</p>
+          <div class="left-num"><span>0</span></div>
+        </div>
+        <div class="right-status">
+          <p>High Priority</p>
+          <div class="left-num"><span>0</span></div>
+        </div>
+      </section>
+      <section class="main-card">
+        <div class="card-content">
+          <div class="main-content">
+            <div class="logo1"><img src="./assets/Clipboard.svg" alt="" /></div>
+            <div class="para"><p>You have no To-do Items As of now</p></div>
+            </div>
+          
+        </div>
+      </section>
+      <footer>
+        <div class="foot">
+        <div class="left-status">
+            <p>Started</p>
+            <div class="left-num"><span>0</span></div>
+          </div>
+          <div class="right-status">
+            <p>High Priority</p>
+            <div class="left-num"><span>0</span></div>
+          </div>
+        </div>
+        <div class="bottom-card">
+            <div class="bottom1">
+                <p>Completed</p>
+                <div class="left-num"><span>0</span></div>
+              </div>
+              <div class="bottom2">
+                <p>High Prioity</p>
+                <div class="left-num"><span>0</span></div>
+              </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
